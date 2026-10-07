@@ -11,14 +11,18 @@ body{
 }
 
 header{
+    position: relative;
+    z-index: 2;
+
     background-color: #570d07;
     background-image: url(drink-menu-header.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+
     display: flex;
     border-radius: 0 0 16px 16px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.6);
 }
 
 img{
@@ -29,6 +33,9 @@ img{
 }
 
 main{
+    position: relative;
+    z-index: 1;
+
     flex: 1;
     padding: 1rem 1rem 0 1rem;
     background-image: url("drink-menu-background (2).png");
@@ -96,7 +103,6 @@ footer{
     background-color: #680803;
     padding: 2rem;
     border-radius: 16px 16px 0 0;
-    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.4);
 }
 
 @media (min-width: 750px){
