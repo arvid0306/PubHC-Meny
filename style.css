@@ -32,15 +32,13 @@ main{
 
 h2,
 h3,
-h4,
 ul{
     color: white;
     font-family: "Barlow Condensed", sans-serif;
 }
 
 h2,
-h3,
-h4{
+h3{
     text-align: center;
     margin: 1rem 0;
 }
@@ -80,12 +78,16 @@ h3{
 
 .hc-stugan{
     display: block;
-    margin: 5rem auto 0;
+    width: min(90%, 600px);
+    margin: 0 auto;
+    position: relative;
+    bottom: -62px;
+    z-index: 2;
 }
 
 footer{
     background-color: #680803;
-    padding: 1rem;
+    padding: 2rem;
     border-radius: 16px 16px 0 0;
     box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.4);
 }
@@ -103,8 +105,7 @@ footer{
         font-size: 3rem;
     }
 
-    span,
-    h4{
+    span{
         font-size: 2rem;
     }
 
