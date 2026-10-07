@@ -1,33 +1,61 @@
 body{
     background-color: #07572d;
     margin: 0;
+    background-image: url("drink-menu-background (2).png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat;
 }
 
 header{
     background-color: #570d07;
+    background-image: url(drink-menu-header.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     display: flex;
     border-radius: 0 0 16px 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
 }
 
 img{
-    width: 200px;
-    margin: 0 auto;
+    display: block;
+    width: 50%;
+    margin: 1rem auto;
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.4));
 }
 
 main{
-    padding: 1rem;
+    padding: 1rem 1rem 0 1rem;
+    max-width: 1920px;
 }
 
 h2,
 h3,
+h4,
 ul{
     color: white;
+    font-family: "Barlow Condensed", sans-serif;
 }
 
 h2,
-h3{
+h3,
+h4{
     text-align: center;
-    margin: 0;
+    margin: 1rem 0;
+}
+
+h2{
+    font-size: 3rem;
+}
+
+h3,
+span{
+    font-size: 1rem;
+}
+
+h3{
+    font-size: 2rem;
 }
 
 .drink-menu{
@@ -48,4 +76,39 @@ h3{
 
 .price{
     white-space: nowrap;
+}
+
+.hc-stugan{
+    display: block;
+    margin: 5rem auto 0;
+}
+
+footer{
+    background-color: #680803;
+    padding: 1rem;
+    border-radius: 16px 16px 0 0;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.4);
+}
+
+@media (min-width: 750px){
+    img{
+        width: 25%;
+    }
+
+    h2{
+        font-size: 5rem;
+    }
+
+    h3{
+        font-size: 3rem;
+    }
+
+    span,
+    h4{
+        font-size: 2rem;
+    }
+
+    .hc-stugan{
+        margin-top: 10rem;
+    }
 }
