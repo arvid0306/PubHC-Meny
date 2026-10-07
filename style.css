@@ -1,0 +1,51 @@
+body{
+    background-color: #07572d;
+    margin: 0;
+}
+
+header{
+    background-color: #570d07;
+    display: flex;
+    border-radius: 0 0 16px 16px;
+}
+
+img{
+    width: 200px;
+    margin: 0 auto;
+}
+
+main{
+    padding: 1rem;
+}
+
+h2,
+h3,
+ul{
+    color: white;
+}
+
+h2,
+h3{
+    text-align: center;
+    margin: 0;
+}
+
+.drink-menu{
+    padding: 0;
+}
+
+.drink-menu li{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    list-style-type: none;
+}
+
+.drink-menu small{
+    display: block;
+}
+
+.price{
+    white-space: nowrap;
+}
