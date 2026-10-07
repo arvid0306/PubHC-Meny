@@ -1,10 +1,13 @@
+html,
 body{
     background-color: #570d07;
     margin: 0;
-    background-image: url("drink-menu-background (2).png");
-    background-size: contain;
-    background-position: center;
-    background-repeat: repeat;
+}
+
+body{
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
 }
 
 header{
@@ -26,9 +29,12 @@ img{
 }
 
 main{
-    background-color: #570d07;
+    flex: 1;
     padding: 1rem 1rem 0 1rem;
-    max-width: 1920px;
+    background-image: url("drink-menu-background (2).png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat;
 }
 
 h2,
@@ -108,6 +114,7 @@ footer{
 
     span{
         font-size: 2rem;
+        margin: 0 3rem;
     }
 
     .hc-stugan{
